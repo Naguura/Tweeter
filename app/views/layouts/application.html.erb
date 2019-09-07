@@ -13,12 +13,12 @@
     <% if flash[:notice] %>
       <div class= "notification is-primary global-notification">
         <p class= "notice"><%= notice%></p>
-    <%=end%>
+    <%end%>
 
     <% if flash[:alert] %>
       <div class= "notification is-danger global-notification">
         <p class= "alert"><%= alert%></p>
-    <%=end%>
+    <%end%>
 
     <%= yield %>
   </body>
