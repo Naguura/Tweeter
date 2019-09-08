@@ -1,2 +1,21 @@
 
 @import "bulma";
+
+.navbar-brand .title {
+	color: pink;
+}
+
+
+//round images
+.image {
+	background: pink;
+	border-radius: 50%;
+	img {
+		/*border: solid  black;*/
+		border-radius: 50%;
+	}
+}
+
+.notifications:not(:last-child){
+	margin-bottom: 0;
+}
